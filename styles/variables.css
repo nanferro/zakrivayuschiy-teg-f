@@ -1,1 +1,22 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+    --main-font: "Inter Variable"; 
+    --accent-font: "Press Start 2P";
+    --normal-font-weight: 400;
+    --bold-font-weight: 700;
+    --main-font-color: rgb(0, 0, 0);
+    --bg-color: rgb(255, 255, 255);
+    --border-style: 2px solid rgb(0, 0, 0);
+    --card-inline-size: clamp(23.438rem, 30.516vw + 16.285rem, 43.75rem);
+    --main-font-size: 18px;
+    --button-font-size: 14px;
+    --text-stroke-color: rgb(255, 255, 255);
+    --backdrop-color: rgb(0, 0, 0, 0.75);
+    --bg-image: repeating-linear-gradient(to right, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px), 
+    repeating-linear-gradient(to bottom, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px), 
+    repeating-linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+
+    --like-contour-color: rgb(0, 0, 0);
+    --like-sparks-color: rgb(255, 0, 0);
+}
