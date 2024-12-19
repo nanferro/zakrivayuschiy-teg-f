@@ -172,6 +172,7 @@
   transform: scaleX(0);
   transform-origin: left;
   block-size: 100%;
+  inline-size: 100%;
 }
 
 .button:hover::before {
