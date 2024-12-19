@@ -42,7 +42,7 @@
   align-items: center;
   gap: 20px;
   margin-block: clamp(7.5rem, 0.751vw + 7.324rem, 8rem);
-  font-family: var(--accent-font);
+  font-family: var(--accent-font, fantasy);
   line-height: 1;
   text-transform: uppercase;
 }
@@ -81,7 +81,7 @@
   position: absolute;
   z-index: 1;
   opacity: 0.5;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font, fantasy);
   font-size: 14px;
   line-height: 1;
   text-transform: uppercase;
@@ -161,6 +161,7 @@
   align-items: center;
   border: var(--outline-style, 2px solid rgb(0, 0, 0));
   background-color: var(--bg-color, rgb(255, 255, 255));
+  transition: box-shadow 0.3s;
 }
 
 .button::before {
@@ -183,7 +184,6 @@
 .button:focus {
   box-shadow: 2px 2px 0 var(--accent-color, rgb(0, 0, 0));
   outline: none;
-  transition: box-shadow 0.3s;
 }
 
 .card__like-button {
@@ -195,7 +195,7 @@
   position: relative;
   z-index: 2;
   color: var(--text-accent-color, rgb(255, 255, 255));
-  font-family: var(--accent-font);
+  font-family: var(--accent-font, fantasy);
   font-size: var(--button-font-size, 14px);
   line-height: 0.9;
   mix-blend-mode: difference;
@@ -255,7 +255,7 @@
 }
 
 .save-dialog__instruction {
-  font-family: var(--accent-font);
+  font-family: var(--accent-font, fantasy);
   font-size: 14px;
   line-height: 1.5;
   text-transform: uppercase;

@@ -58,7 +58,7 @@
   
 .card__icon-button:focus-visible {
   border: var(--outline-style, 2px solid rgb(0, 0, 0));
-  transition: border-color 0.3s ease;
+  transition: border 0.3s linear;
 }
   
 .card__icon-button:active .main-body {
