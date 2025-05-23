@@ -1,6 +1,6 @@
 ## Closing Tag - responsive decorative landing page
 **Description:** Fourth study project in my Frontend Developer course at Yandex.Practicum.  
-Sprint 4 – "Styling: decoration, approaches, and tools."
+Sprint 4 – "Styling: decoration, approaches, and tools."  
 [Demo availible](https://nanferro.github.io/zakrivayuschiy-teg-f/) in Russian.
 
 🔧 Stack: HTML5, CSS3, vanilla JavaScript  
